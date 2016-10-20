@@ -1,12 +1,6 @@
-docker-opengl
+docker-opengl:centOS
 =============
-A docker image that supports rendering graphical applications, including OpenGL apps.
-
-.. image:: https://circleci.com/gh/thewtex/docker-opengl.svg?style=svg
-    :target: https://circleci.com/gh/thewtex/docker-opengl
-
-.. image:: https://badge.imagelayers.io/thewtex/opengl:latest.svg
-  :target: https://imagelayers.io/?images=thewtex/opengl:latest
+A docker image based on centOS 5 that supports rendering graphical applications, including OpenGL apps.
 
 Overview
 --------
@@ -16,7 +10,7 @@ rendering, including rendering OpenGL-based applications. An X session is
 running on display `:0` and can be viewed through HTML5 viewer on any device
 with a modern web browser (Mac OSX, Windows, Linux, Android, iOS, ChromeOS,
 ...). It can be used to expose a graphical interface from a Docker container
-or to run continuous integration tests that require a graphical enviroment.
+or to run continuous integration tests that require a graphical environment.
 
 Quick-start
 -----------
